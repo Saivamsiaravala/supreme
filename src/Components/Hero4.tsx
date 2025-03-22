@@ -70,8 +70,8 @@ const Hero4 = () => {
           </div>
         </div>
       </div>
-      <div className=" text-center mt-30 tracking-tight w-full border-2 font-thin">
-        <span className="border-2 sm:flex sm:justify-self-start">
+      <div className=" text-center mt-30 tracking-tight w-full font-thin">
+        <span className="sm:flex sm:justify-self-start">
           ©2025. All Rights Reserved.
         </span>
         <span className="hidden sm:flex sm:justify-self-center sm:relative sm:left-40">
