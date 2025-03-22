@@ -8,7 +8,7 @@ import Error from "./Pages/Error";
 
 const App = () => {
   return (
-    <div className=" h-screen w-full  overflow-y-auto [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-black  [&::-webkit-scrollbar-track]:bg-white  ">
+    <div className=" h-screen w-full  overflow-y-auto overflow-x-hidden [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-black  [&::-webkit-scrollbar-track]:bg-white  ">
       {/* <section className="flex flex-col h-screen overflow-hidden w-full">
         <div className="h-[70px] pb-[10px] pt-[10px] pl-[107px] bg-white w-full ">
           <Header />

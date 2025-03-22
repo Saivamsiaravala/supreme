@@ -2,13 +2,13 @@ import sup from "./../assets/supreme-logo.svg";
 const Hero4 = () => {
   return (
     <div
-      className="bg-white text-black h-screen py-[48px]  px-[105px]   flex
+      className="bg-white px-[20px] text-black sm:h-screen py-[48px]  sm:px-[105px]   flex
     flex-col "
     >
       <div className="logo pb-[10px] ">
         <img src={sup} alt="logo" className="h-[56px] w-[160px]" />
       </div>
-      <div className="pages   h-60 pt-[10px] flex gap-4 justify-between ">
+      <div className="pages grid grid-cols-2 gap-4 h-60 pt-[10px] sm:flex sm:gap-4 justify-between  ">
         <div className="applications  ">
           <div className="font-semibold uppercase">Applications</div>
           <br />
@@ -48,20 +48,17 @@ const Hero4 = () => {
           <br />
         </div>
       </div>
-      <div>
-        <div className=" mt-[100px] h-10 font-thin">
-          <div className="flex">
-            <div className="w-1/2 flex justify-baseline">
-              ©2025. All Rights Reserved.
-            </div>
-            <div className="w-1/2 flex justify-end   ">
-              Supreme House, 110, 16th Road, Chembur, Mumbai – 400071.
-            </div>
-          </div>
-        </div>
+      <div className="grid place-items-center mt-[120px] w-full sm:flex sm:flex-row border-2 text-center">
+        <span>©2025. All Rights Reserved.</span>
+        <span className="hidden sm:inline-flex ">
+          Supreme House, 110, 16th Road, Chembur, Mumbai – 400071.
+        </span>
       </div>
     </div>
   );
 };
 
 export default Hero4;
+
+// ©2025. All Rights Reserved.
+// Supreme House, 110, 16th Road, Chembur, Mumbai – 400071.

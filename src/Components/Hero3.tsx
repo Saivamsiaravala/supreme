@@ -2,33 +2,30 @@ import FormComponent from "./FormComponent";
 
 const Hero3 = () => {
   return (
-    <div
-      className="h-screen   flex
-  justify-center items-center text-white bg-[#0067B1] w-screen sm:flex-col  "
-    >
-      <div className=" flex pt-12 gap-0.5 ">
-        <div className="get-in-touch md:w-[30vw]  ">
-          <div className=" text-3xl h-[38px]">Get in touch</div>
-          <br className="font-bold w-[15px]  " />
-          <hr className="w-[30px] font-bold h-[2px]" />
-          <br />
-          <div className="text-xl font-light">For general enquires</div>
-          <br />
-          <div className="text-lg font-normal "> Address :</div>
-          <div className="font-light">110, 16th Road, Chembur,</div>
-          <div className="font-light">Mumbai - 400071</div>
-          <br />
-          <div className="text-lg font-normal">
-            {" "}
-            Phone :<div className="font-light">+91 22 25208822</div>
+    <div className="bg-[#0067B1] pt-16 pl-5 h-full w-full sm:pt-20 sm:pl-45 ">
+      <div className="  text-white font-semibold h-[38px] text-[25px] sm:text-3xl sm:mb-10 ">
+        Get in touch
+        <div className="border-2 font-thin border-white w-[50px] mt-2 sm:mt-6  "></div>
+      </div>
+      <div>
+        <div className="sm:flex sm:flex-row-reverse">
+          <div className="pb-4 pt-4 w-full sm:relative sm:bottom-22 ">
+            <FormComponent />
           </div>
-          <br />
-          <div className="text-lg font-normal"> Email :</div>
-          <div className="font-light">info@supremegroup.co.in</div>
-        </div>
-        <div className="form w-95">
-          {" "}
-          <FormComponent />
+          <div className="text-white pb-10 pt-4 tracking-wider sm:w-[40vw] ">
+            <div className="text-lg font-light sm:pb-2 ">
+              For general enquires
+            </div>
+            <div className="text-xl pt-4">Address :</div>
+            <div className="text-md font-light">
+              110, 16th Road, Chembur,
+              <br /> Mumbai - 400071
+            </div>
+            <div className="text-xl pt-3">Phone :</div>
+            <div>+91 22 25208822</div>
+            <div className="text-xl pt-3">Email :</div>
+            <div>info@supremegroup.co.in</div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,3 +33,7 @@ const Hero3 = () => {
 };
 
 export default Hero3;
+
+// {
+//   /* <FormComponent /> */
+// }

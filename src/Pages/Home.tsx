@@ -13,7 +13,7 @@ const Home = () => {
       <section className="h-screen w-full  overflow-auto   ">
         <DummyHero />
       </section>
-      <section className="h-screen w-screen overflow-hidden">
+      <section className="sm:h-screen w-screen ">
         <Hero3 />
       </section>
     </div>
