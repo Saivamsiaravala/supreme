@@ -27,7 +27,7 @@ const App = () => {
         <Hero4 />
       </section> */}
       <section className="h-[15vh] overflow-hidden w-full shadow-xl">
-        <div className="h-[70px] pb-[10px] pt-[10px] pl-[107px] bg-white w-full ">
+        <div className=" pl-3 pt-3 sm:h-[70px] sm:pb-[10px] sm:pt-[10px] sm:pl-[107px] bg-white w-full ">
           <Header />
         </div>
       </section>
