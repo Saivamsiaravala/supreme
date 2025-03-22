@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.Toastify__close-button {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+/* .Toastify__toast a {
+  text-decoration: underline white !important;
+} */
+
+.custom-progress-bar {
+  text-decoration: double !important;
+  height: 2px !important;
+  background-color: yellow !important;
+}
+
+.toast {
+  min-height: 80px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hidden {
+  transform: translateY(-100%); /* Move navbar out of view */
+}
+
+.visible {
+  transform: translateY(0); /* Show navbar */
+}
